@@ -1,6 +1,0 @@
-#!/bin/bash
-
-read -p "Enter the Directory path:" a 
-read -p "Enter the File Name:" b
-
-echo "the value was $a "
