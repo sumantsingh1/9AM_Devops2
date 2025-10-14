@@ -1,0 +1,16 @@
+2. What is the command to find a 'string' in a file
+	a. string must be a '6' digit word
+
+	#grep -E '\b[0-9]{6}\b' filename
+
+	b. string starts with 'V' and ends with 'U'
+
+	#grep -E '\bV[a-zA-Z0-9]*U\b' filename
+
+	c. string contains like _B_D_   also, A_C_E
+
+	#grep -E '_B_D_|A_C_E' filename
+
+	d. Search a strings 'abc' and 'def'
+
+	#grep -E 'abc|def' filename
