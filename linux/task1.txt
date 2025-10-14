@@ -1,0 +1,20 @@
+1. What is the command to find a file 
+
+
+
+	a. file(s) must be ends with .java
+           find / -type f -name "*.java"
+           
+
+	b. file size must be greater than 10 MB
+	   find / -type f -size +10M
+
+
+	c. file must be older than 10 days
+	   find / -type f -mtime +10
+
+
+	d. all files under /var directory which ends with .log
+	   find /var -type f -name "*.log"
+
+
