@@ -12,7 +12,7 @@ fi
 
 #Checking for username contains only letters and uppercase
 
-if [ [ "$username" =~ ^[A-Z]+$ ] ]; then
+if [[ "$username" =~ ^[A-Z]+$ ]]; then
     
 	echo "Valid username: $username "
 
