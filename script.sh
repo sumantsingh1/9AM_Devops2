@@ -1,3 +1,6 @@
 #!/bin/bash
-echo "this is new scripting"
-echo "Hello vinay"
+
+for myvar in 1 2 3
+do 
+	echo "day $myvar started"
+done
